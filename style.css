@@ -757,6 +757,109 @@ body {
 }
 .footer-inner span:nth-child(2) { color: var(--red); opacity: 0.7; }
 
+/* ---- DISCLAIMER ---- */
+.disclaimer-section {
+  background: var(--black);
+  max-width: 100%;
+  padding: 5rem 0;
+}
+.disclaimer-section .section-label,
+.disclaimer-section .section-title {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.disclaimer-box {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  background: var(--panel);
+  border: 2px solid var(--yellow);
+  box-shadow: 0 0 24px rgba(255,238,0,0.08);
+  padding: 2.5rem;
+}
+.disclaimer-icon {
+  font-size: 3.5rem;
+  color: var(--yellow);
+  text-shadow: 0 0 12px rgba(255,238,0,0.6);
+  flex-shrink: 0;
+  line-height: 1;
+  animation: warn-pulse 2s ease-in-out infinite;
+}
+@keyframes warn-pulse {
+  0%,100% { opacity: 1; text-shadow: 0 0 12px rgba(255,238,0,0.6); }
+  50%      { opacity: 0.6; text-shadow: none; }
+}
+.disclaimer-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.disclaimer-main {
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: #ccc;
+}
+.disclaimer-main strong {
+  color: var(--white);
+  font-weight: normal;
+  text-decoration: underline;
+  text-decoration-color: var(--yellow);
+  text-underline-offset: 3px;
+}
+.disclaimer-divider {
+  height: 1px;
+  background: repeating-linear-gradient(90deg, var(--yellow) 0px, var(--yellow) 8px, transparent 8px, transparent 14px);
+  opacity: 0.35;
+}
+.disclaimer-ai {
+  font-size: 0.82rem;
+  color: #aaa;
+  line-height: 1.6;
+}
+.disclaimer-ai strong { color: var(--accent); }
+.ai-label {
+  display: inline-block;
+  font-family: var(--font-head);
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 2px 8px;
+  margin-bottom: 0.5rem;
+}
+.prompt-quote {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--yellow);
+  border-left: 3px solid var(--yellow);
+  padding: 0.8rem 1.2rem;
+  background: rgba(255,238,0,0.04);
+  line-height: 1.65;
+  font-style: italic;
+}
+.disclaimer-credit {
+  font-family: var(--font-head);
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  color: #555;
+}
+.disclaimer-credit strong { color: #888; }
+.disclaimer-credit a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.disclaimer-credit a:hover {
+  text-shadow: var(--glow-green);
+}
+
 /* ---- RESPONSIVE ---- */
 @media (max-width: 768px) {
   .hero-dials { display: none; }
