@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Secret Garden Lab</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Scanlines overlay -->
+  <div class="scanlines"></div>
+
+  <!-- Top alert ticker -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      ⚗️ CLASSIFIED RESEARCH IN PROGRESS &nbsp;•&nbsp; 🌿 BOTANICAL ANOMALY DETECTED &nbsp;•&nbsp; 🔬 SPECIMEN ANALYSIS ONGOING &nbsp;•&nbsp; ☢️ KEEP OUT &nbsp;•&nbsp; 🧪 EXPERIMENT #4471 INITIATED &nbsp;•&nbsp; ⚗️ CLASSIFIED RESEARCH IN PROGRESS &nbsp;•&nbsp; 🌿 BOTANICAL ANOMALY DETECTED &nbsp;•&nbsp; 🔬 SPECIMEN ANALYSIS ONGOING &nbsp;•&nbsp; ☢️ KEEP OUT &nbsp;•&nbsp; 🧪 EXPERIMENT #4471 INITIATED
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="lab-header">
+    <div class="header-inner">
+      <div class="logo-block">
+        <div class="logo-icon">⚗</div>
+        <div class="logo-text">
+          <span class="logo-top">SECRET</span>
+          <span class="logo-main">GARDEN LAB</span>
+          <span class="logo-sub">— BOTANICAL RESEARCH DIVISION —</span>
+        </div>
+        <div class="logo-icon">🌿</div>
+      </div>
+      <nav class="lab-nav">
+        <a href="#research">RESEARCH</a>
+        <a href="#specimens">SPECIMENS</a>
+        <a href="#team">TEAM</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <div class="warning-badge">⚠ TOP SECRET ⚠</div>
+      <h1 class="hero-title">WELCOME TO THE<br><span>SECRET GARDEN LAB</span></h1>
+      <p class="hero-sub">Where botanical science meets the extraordinary.<br>Unauthorized personnel will be composted.</p>
+      <div class="hero-buttons">
+        <a href="#research" class="btn btn-primary">ENTER LAB</a>
+        <a href="#specimens" class="btn btn-secondary">VIEW SPECIMENS</a>
+      </div>
+    </div>
+    <div class="hero-dials">
+      <div class="dial">
+        <svg viewBox="0 0 80 80"><circle cx="40" cy="40" r="34" class="dial-ring"/><circle cx="40" cy="40" r="24" class="dial-inner"/><line x1="40" y1="16" x2="40" y2="36" class="dial-needle" style="transform-origin:40px 40px; transform:rotate(calc(var(--pct,0.72) * 270deg - 135deg))"/></svg>
+        <span>GROWTH RATE</span>
+      </div>
+      <div class="dial">
+        <svg viewBox="0 0 80 80"><circle cx="40" cy="40" r="34" class="dial-ring"/><circle cx="40" cy="40" r="24" class="dial-inner"/><line x1="40" y1="16" x2="40" y2="36" class="dial-needle" style="transform-origin:40px 40px; transform:rotate(calc(var(--pct,0.45) * 270deg - 135deg))"/></svg>
+        <span>ANOMALY LVL</span>
+      </div>
+      <div class="dial">
+        <svg viewBox="0 0 80 80"><circle cx="40" cy="40" r="34" class="dial-ring"/><circle cx="40" cy="40" r="24" class="dial-inner"/><line x1="40" y1="16" x2="40" y2="36" class="dial-needle" style="transform-origin:40px 40px; transform:rotate(calc(var(--pct,0.88) * 270deg - 135deg))"/></svg>
+        <span>SECRECY</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats bar -->
+  <div class="stats-bar">
+    <div class="stat"><span class="stat-num" data-target="4471">0</span><span class="stat-label">Experiments</span></div>
+    <div class="stat-sep">|</div>
+    <div class="stat"><span class="stat-num" data-target="312">0</span><span class="stat-label">Specimens</span></div>
+    <div class="stat-sep">|</div>
+    <div class="stat"><span class="stat-num" data-target="99">0</span><span class="stat-label">% Classified</span></div>
+    <div class="stat-sep">|</div>
+    <div class="stat"><span class="stat-num" data-target="7">0</span><span class="stat-label">Dimensions Studied</span></div>
+  </div>
+
+  <!-- Research Section -->
+  <section id="research" class="section research-section">
+    <div class="section-label">SECTOR 01</div>
+    <h2 class="section-title">CURRENT RESEARCH</h2>
+    <div class="card-grid">
+      <div class="lab-card">
+        <div class="card-icon">🌱</div>
+        <div class="card-badge">ACTIVE</div>
+        <h3>Project VERDANT</h3>
+        <p>Accelerated plant growth via quantum resonance fields. Current specimens show 400% increased growth velocity.</p>
+        <div class="progress-bar"><div class="progress-fill" style="--w:78%"></div></div>
+        <span class="progress-label">78% COMPLETE</span>
+      </div>
+      <div class="lab-card">
+        <div class="card-icon">🍄</div>
+        <div class="card-badge card-badge--yellow">PENDING</div>
+        <h3>Project MYCELIA</h3>
+        <p>Mapping fungal communication networks across a 2km underground mycelial internet. Results: startling.</p>
+        <div class="progress-bar"><div class="progress-fill" style="--w:43%"></div></div>
+        <span class="progress-label">43% COMPLETE</span>
+      </div>
+      <div class="lab-card">
+        <div class="card-icon">🌺</div>
+        <div class="card-badge card-badge--red">CLASSIFIED</div>
+        <h3>Project NIGHTBLOOM</h3>
+        <p>███████████████████████ luminescent flora ███████ do not approach ███████████████.</p>
+        <div class="progress-bar"><div class="progress-fill progress-fill--red" style="--w:100%"></div></div>
+        <span class="progress-label">REDACTED</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specimens -->
+  <section id="specimens" class="section specimens-section">
+    <div class="section-label">SECTOR 02</div>
+    <h2 class="section-title">SPECIMEN CATALOG</h2>
+    <div class="specimen-grid">
+      <div class="specimen-card">
+        <div class="specimen-jar">
+          <div class="jar-liquid" style="--col:#00ff88; --h:60%"></div>
+          <div class="jar-specimen">🌿</div>
+        </div>
+        <div class="specimen-info">
+          <div class="specimen-id">SGX-001</div>
+          <div class="specimen-name">Chlorophyllus Absurdus</div>
+          <div class="specimen-status">STABLE</div>
+        </div>
+      </div>
+      <div class="specimen-card">
+        <div class="specimen-jar">
+          <div class="jar-liquid" style="--col:#ff6600; --h:80%"></div>
+          <div class="jar-specimen">🌸</div>
+        </div>
+        <div class="specimen-info">
+          <div class="specimen-id">SGX-047</div>
+          <div class="specimen-name">Floralis Temporalis</div>
+          <div class="specimen-status specimen-status--warn">ANOMALOUS</div>
+        </div>
+      </div>
+      <div class="specimen-card">
+        <div class="specimen-jar">
+          <div class="jar-liquid" style="--col:#aa00ff; --h:40%"></div>
+          <div class="jar-specimen">🍄</div>
+        </div>
+        <div class="specimen-info">
+          <div class="specimen-id">SGX-119</div>
+          <div class="specimen-name">Fungus Mysterium</div>
+          <div class="specimen-status specimen-status--red">CONTAINED</div>
+        </div>
+      </div>
+      <div class="specimen-card">
+        <div class="specimen-jar">
+          <div class="jar-liquid" style="--col:#ffee00; --h:70%"></div>
+          <div class="jar-specimen">🌻</div>
+        </div>
+        <div class="specimen-info">
+          <div class="specimen-id">SGX-312</div>
+          <div class="specimen-name">Heliotropicus Rex</div>
+          <div class="specimen-status">STABLE</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" class="section team-section">
+    <div class="section-label">SECTOR 03</div>
+    <h2 class="section-title">THE TEAM</h2>
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-avatar">👩‍🔬</div>
+        <div class="team-name">DR. V. GREENHOUSE</div>
+        <div class="team-role">Chief Botanical Officer</div>
+        <div class="team-clearance">CLEARANCE: OMEGA</div>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">🧑‍🔬</div>
+        <div class="team-name">PROF. THORNBERRY</div>
+        <div class="team-role">Quantum Flora Specialist</div>
+        <div class="team-clearance">CLEARANCE: DELTA</div>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">👨‍💻</div>
+        <div class="team-name">AGENT POLLEN</div>
+        <div class="team-role">Data & Mycelial Networks</div>
+        <div class="team-clearance">CLEARANCE: BETA</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact-section">
+    <div class="section-label">SECTOR 04</div>
+    <h2 class="section-title">MAKE CONTACT</h2>
+    <div class="contact-box">
+      <p class="contact-sub">Authorized personnel only. All transmissions monitored.</p>
+      <form class="contact-form" onsubmit="return false;">
+        <div class="form-row">
+          <input type="text" placeholder="DESIGNATION (NAME)" class="lab-input" />
+          <input type="email" placeholder="SECURE CHANNEL (EMAIL)" class="lab-input" />
+        </div>
+        <textarea placeholder="ENCODED MESSAGE..." class="lab-textarea"></textarea>
+        <button type="submit" class="btn btn-primary">TRANSMIT ▶</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ========== BOTTOM SILHOUETTE SCENE ========== -->
+  <div class="lab-floor">
+    <div class="floor-bg"></div>
+
+    <!-- Animated silhouette scientists -->
+    <div class="scientist sci-1" aria-hidden="true">
+      <svg class="sci-svg" viewBox="0 0 60 90" xmlns="http://www.w3.org/2000/svg">
+        <!-- Body -->
+        <ellipse cx="30" cy="28" rx="12" ry="14" fill="black"/>
+        <!-- Head -->
+        <circle cx="30" cy="10" r="9" fill="black"/>
+        <!-- Lab coat flare -->
+        <polygon points="18,35 14,75 26,75 30,50 34,75 46,75 42,35" fill="black"/>
+        <!-- Arm holding flask -->
+        <line x1="42" y1="42" x2="54" y2="32" stroke="black" stroke-width="5" stroke-linecap="round"/>
+        <!-- Flask -->
+        <g transform="translate(50,18)">
+          <rect x="-3" y="0" width="6" height="8" rx="1" fill="black"/>
+          <ellipse cx="0" cy="14" rx="7" ry="9" fill="black"/>
+          <!-- Glowing liquid -->
+          <ellipse cx="0" cy="16" rx="5" ry="6" fill="#00ffaa" opacity="0.9" class="flask-glow"/>
+        </g>
+        <!-- Other arm swinging -->
+        <line x1="18" y1="42" x2="8" y2="52" stroke="black" stroke-width="5" stroke-linecap="round" class="arm-swing"/>
+        <!-- Legs -->
+        <line x1="24" y1="75" x2="20" y2="90" stroke="black" stroke-width="5" stroke-linecap="round" class="leg-l"/>
+        <line x1="36" y1="75" x2="40" y2="90" stroke="black" stroke-width="5" stroke-linecap="round" class="leg-r"/>
+      </svg>
+    </div>
+
+    <div class="scientist sci-2" aria-hidden="true">
+      <svg class="sci-svg" viewBox="0 0 60 90" xmlns="http://www.w3.org/2000/svg">
+        <!-- Shorter, rounder scientist -->
+        <ellipse cx="30" cy="30" rx="14" ry="16" fill="black"/>
+        <circle cx="30" cy="11" r="10" fill="black"/>
+        <!-- Coat -->
+        <polygon points="16,40 12,78 28,78 30,55 32,78 48,78 44,40" fill="black"/>
+        <!-- Both arms forward (carrying big flask) -->
+        <line x1="16" y1="45" x2="6" y2="38" stroke="black" stroke-width="5" stroke-linecap="round"/>
+        <line x1="44" y1="45" x2="54" y2="38" stroke="black" stroke-width="5" stroke-linecap="round"/>
+        <!-- Large round-bottom flask between arms -->
+        <g transform="translate(30,24)">
+          <rect x="-4" y="-10" width="8" height="10" rx="2" fill="black"/>
+          <ellipse cx="0" cy="10" rx="12" ry="14" fill="black"/>
+          <ellipse cx="0" cy="12" rx="9" ry="10" fill="#ff6600" opacity="0.85" class="flask-glow"/>
+        </g>
+        <!-- Legs waddling -->
+        <line x1="24" y1="78" x2="19" y2="90" stroke="black" stroke-width="6" stroke-linecap="round" class="leg-l"/>
+        <line x1="36" y1="78" x2="41" y2="90" stroke="black" stroke-width="6" stroke-linecap="round" class="leg-r"/>
+      </svg>
+    </div>
+
+    <div class="scientist sci-3" aria-hidden="true">
+      <svg class="sci-svg" viewBox="0 0 60 100" xmlns="http://www.w3.org/2000/svg">
+        <!-- Tall thin scientist -->
+        <rect x="22" y="22" width="16" height="26" rx="4" fill="black"/>
+        <circle cx="30" cy="13" r="11" fill="black"/>
+        <!-- Tall coat -->
+        <polygon points="18,44 14,95 28,95 30,60 32,95 46,95 42,44" fill="black"/>
+        <!-- One arm raised with flask overhead -->
+        <line x1="18" y1="46" x2="4" y2="28" stroke="black" stroke-width="5" stroke-linecap="round"/>
+        <!-- Erlenmeyer flask raised -->
+        <g transform="translate(0,14)">
+          <polygon points="4,0 4,14 -8,28 16,28" fill="black"/>
+          <polygon points="0,20 -6,28 6,28" fill="#aa00ff" opacity="0.9" class="flask-glow"/>
+        </g>
+        <!-- Other arm out -->
+        <line x1="42" y1="46" x2="56" y2="54" stroke="black" stroke-width="5" stroke-linecap="round"/>
+        <line x1="24" y1="95" x2="20" y2="100" stroke="black" stroke-width="5" stroke-linecap="round" class="leg-l"/>
+        <line x1="36" y1="95" x2="40" y2="100" stroke="black" stroke-width="5" stroke-linecap="round" class="leg-r"/>
+      </svg>
+    </div>
+
+    <div class="scientist sci-4" aria-hidden="true">
+      <svg class="sci-svg" viewBox="0 0 60 90" xmlns="http://www.w3.org/2000/svg">
+        <!-- Scientist with goggles (circles on head) -->
+        <ellipse cx="30" cy="28" rx="12" ry="13" fill="black"/>
+        <circle cx="30" cy="10" r="9" fill="black"/>
+        <!-- Goggle circles -->
+        <circle cx="25" cy="9" r="4" fill="black" stroke="#333" stroke-width="1"/>
+        <circle cx="35" cy="9" r="4" fill="black" stroke="#333" stroke-width="1"/>
+        <!-- Coat -->
+        <polygon points="18,36 13,80 27,80 30,54 33,80 47,80 42,36" fill="black"/>
+        <!-- Arm holding two flasks like a tray -->
+        <line x1="42" y1="42" x2="58" y2="36" stroke="black" stroke-width="5" stroke-linecap="round"/>
+        <!-- Two test tubes -->
+        <g transform="translate(56,22)">
+          <rect x="-2" y="0" width="4" height="12" rx="2" fill="black"/>
+          <ellipse cx="0" cy="13" rx="3" ry="4" fill="#00ffaa" opacity="0.9" class="flask-glow"/>
+        </g>
+        <g transform="translate(64,26)">
+          <rect x="-2" y="0" width="4" height="12" rx="2" fill="black"/>
+          <ellipse cx="0" cy="13" rx="3" ry="4" fill="#ffee00" opacity="0.9" class="flask-glow"/>
+        </g>
+        <line x1="18" y1="42" x2="4" y2="50" stroke="black" stroke-width="5" stroke-linecap="round" class="arm-swing"/>
+        <line x1="24" y1="80" x2="20" y2="90" stroke="black" stroke-width="5" stroke-linecap="round" class="leg-l"/>
+        <line x1="36" y1="80" x2="40" y2="90" stroke="black" stroke-width="5" stroke-linecap="round" class="leg-r"/>
+      </svg>
+    </div>
+
+    <div class="scientist sci-5" aria-hidden="true">
+      <svg class="sci-svg" viewBox="0 0 60 90" xmlns="http://www.w3.org/2000/svg">
+        <!-- Running scientist, leaning forward -->
+        <ellipse cx="34" cy="26" rx="11" ry="13" fill="black"/>
+        <circle cx="36" cy="10" r="9" fill="black"/>
+        <!-- Coat windswept -->
+        <polygon points="22,36 10,78 24,78 32,50 36,78 50,76 46,34" fill="black"/>
+        <!-- Arm stretched forward with flask -->
+        <line x1="46" y1="40" x2="60" y2="30" stroke="black" stroke-width="5" stroke-linecap="round"/>
+        <!-- Round flask -->
+        <g transform="translate(57,16)">
+          <rect x="-3" y="0" width="6" height="9" rx="1" fill="black"/>
+          <ellipse cx="0" cy="17" rx="8" ry="10" fill="black"/>
+          <ellipse cx="0" cy="19" rx="6" ry="7" fill="#ff00aa" opacity="0.9" class="flask-glow"/>
+        </g>
+        <!-- Back arm trailing -->
+        <line x1="22" y1="38" x2="8" y2="44" stroke="black" stroke-width="5" stroke-linecap="round"/>
+        <!-- Legs mid-stride -->
+        <line x1="26" y1="78" x2="16" y2="90" stroke="black" stroke-width="5" stroke-linecap="round" class="leg-l"/>
+        <line x1="38" y1="78" x2="46" y2="86" stroke="black" stroke-width="5" stroke-linecap="round" class="leg-r"/>
+      </svg>
+    </div>
+
+    <!-- Plants decorating the floor -->
+    <div class="floor-plant plant-1">🌿</div>
+    <div class="floor-plant plant-2">🌱</div>
+    <div class="floor-plant plant-3">🌿</div>
+    <div class="floor-plant plant-4">🌱</div>
+    <div class="floor-plant plant-5">🌿</div>
+
+    <!-- Bubbling equipment on the floor -->
+    <div class="floor-equipment eq-1">⚗️</div>
+    <div class="floor-equipment eq-2">🔬</div>
+    <div class="floor-equipment eq-3">⚗️</div>
+  </div>
+
+  <footer class="lab-footer">
+    <div class="footer-inner">
+      <span>© SECRET GARDEN LAB — ALL EXPERIMENTS CLASSIFIED</span>
+      <span>ESTABLISHED IN AN UNDISCLOSED LOCATION</span>
+      <span>⚗ DO NOT DISTURB THE SPECIMENS ⚗</span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
