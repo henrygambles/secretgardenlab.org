@@ -92,3 +92,7 @@ Drag the project folder onto [netlify.com/drop](https://netlify.com/drop).
 ---
 
 *© Secret Garden Lab — All Experiments Classified — Established in an Undisclosed Location* 🌿
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=henrygambles/secretgardenlab.org&type=Date)](https://star-history.com/#henrygambles/secretgardenlab.org&Date)
