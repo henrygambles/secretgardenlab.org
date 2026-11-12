@@ -95,4 +95,4 @@ Drag the project folder onto [netlify.com/drop](https://netlify.com/drop).
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=henrygambles/secretgardenlab.org&type=Date)](https://star-history.com/#henrygambles/secretgardenlab.org&Date)
+![Star history](.github/star-history.svg)
